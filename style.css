@@ -69,7 +69,6 @@ body {
 
 /***********Viser figurer****/
 
-/*
 #man_sprite {
     background-image: url(spritesheet%202.svg);
     background-size: 800% 800%;
@@ -133,9 +132,9 @@ body {
     }
 }
 
-.man_move_right{
+.man_move_right {
     animation-name: man_move_right_kf;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-iteration-count: 1;
 }
 
@@ -144,10 +143,9 @@ body {
         left: 0;
     }
     to {
-        left: 50vw;
+        left: 100vw;
     }
 }
-*/
 
 #man_sit {
     background-image: url(spritesheet%202.svg);
