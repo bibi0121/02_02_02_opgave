@@ -63,10 +63,13 @@ body {
     }
 }
 
-#man_container {
-    position: absolute;
-}
 
+
+
+
+/***********Viser figurer****/
+
+/*
 #man_sprite {
     background-image: url(spritesheet%202.svg);
     background-size: 800% 800%;
@@ -74,9 +77,6 @@ body {
     height: 25vw;
 }
 
-
-
-/***********Viser figurer****/
 
 .man_A {
     background-position: 0% -100%;
@@ -111,19 +111,9 @@ body {
     background-position: 0% -800%;
 }
 
-#man_sit {
-    background-image: url(spritesheet%202.svg);
-    background-size: 800% 800%;
-    width: 17.5vw;
-    height: 25vw;
+#man_container {
+    position: absolute;
 }
-
-.man_sit {}
-
-
-
-
-
 
 
 .man_walk {
@@ -142,6 +132,51 @@ body {
         background-position: 800% 0;
     }
 }
+
+.man_move_right{
+    animation-name: man_move_right_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes man_move_right_kf {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50vw;
+    }
+}
+*/
+
+#man_sit {
+    background-image: url(spritesheet%202.svg);
+    background-size: 800% 800%;
+    width: 17.5vw;
+    height: 25vw;
+}
+
+.man_I {
+    background-position: -100% -100%;
+}
+
+.man_sit_down {
+    animation-name: man_sit_down;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(8);
+    animation-direction: reverse;
+}
+
+@keyframes man_sit_down {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 800% 0;
+    }
+}
+
 
 #bear_container {
     position: absolute;
