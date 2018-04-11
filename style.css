@@ -62,3 +62,74 @@ body {
 
     }
 }
+
+#man_container{
+    position: absolute;
+}
+
+#man_sprite{
+    background-image: url(spritesheet%202-kopi.svg);
+    background-size: 800% 800%;
+    width: 30vw;
+    height: 36vw;
+}
+
+
+
+/***********Viser figurer****/
+
+.man_A{
+    background-position: 0 -100%;
+}
+
+.man_B{
+    background-position: 0% -200%;
+}
+
+.man_C{
+    background-position: 0% -300%;
+}
+
+.man_D{
+    background-position: 0% -400%;
+}
+
+.man_E{
+    background-position: 0% -500%;
+}
+
+.man_F{
+    background-position: 0% -600%;
+}
+
+.man_G{
+    background-position: 0% -700%;
+}
+
+.man_H{
+    background-position: 0% -800%;
+}
+
+
+
+
+
+.man_walk{
+    animation-name: man_walk_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(8);
+}
+
+@keyframes man_walk_kf{
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 800% 0;
+    }
+}
+
+#bear_container{
+    position: absolute;
+}
