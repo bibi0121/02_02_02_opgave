@@ -70,9 +70,9 @@ body {
 /***********Viser figurer****/
 
 #man_sprite {
-    background-image: url(spritesheet%202.svg);
+    background-image: url(Artboard%201.svg);
     background-size: 800% 800%;
-    width: 17.5vw;
+    width: 30vw;
     height: 25vw;
 }
 
@@ -112,12 +112,13 @@ body {
 
 #man_container {
     position: absolute;
+
 }
 
 
 .man_walk {
     animation-name: man_walk_kf;
-    animation-duration: 5s;
+    animation-duration: s;
     animation-iteration-count: infinite;
     animation-timing-function: steps(8);
     animation-direction: reverse;
@@ -147,6 +148,7 @@ body {
     }
 }
 
+/*
 #man_sit {
     background-image: url(spritesheet%202.svg);
     background-size: 800% 800%;
@@ -190,3 +192,4 @@ body {
 
 .bear_1 {
     background-position:
+*/
