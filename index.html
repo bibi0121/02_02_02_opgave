@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="da">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,35 +9,55 @@
 </head>
 
 <body>
-   <!------------- Scene ------------>
-   <div id="scene">
-       <div id="baggrund"></div>
-       <div id="midtergrund"></div>
-       <div id="forgrund"></div>
-       <div id="skyer"></div>
-   </div>
 
-   <!--- karakterene --->
-
-   <div id="man_container" class="man_move_right">
+    <!-----Knapper------>
 
 
-      <div id="man_sprite" class="man_walk"></div>
+    <button id="startHistorie">startHistorie</button>
 
-       </div>
+    <button id="mandSerBjornen">mandSerBjornen</button>
 
-     <div id="man_sit" class="man_sit_down"></div>
+    <button id="bjornEfterMand">bjornEfterMand</button>
 
 
 
-    <div id="bear_container" class="bear_move_right" ></div>
-
-       <div id="bear_sprite" class="bear_walk"></div>
-
-       <div id="bear_fall" class="bear_falling"></div>
 
 
+    <!------------- Scene ------------>
+    <div id="scene">
+        <div id="baggrund"></div>
+        <div id="midtergrund"></div>
+        <div id="forgrund"></div>
+        <div id="skyer"></div>
+    </div>
+
+    <!--- karakterene --->
+
+    <div id="man_container" class="man_move_right">
+
+
+        <div id="man_sprite" class="man_walk" ></div>
+
+        <div id="man_sit" class="man_sit_down"></div>
+
+
+
+    </div>
+
+
+    <div id="bear_container" class="bear_move_right">
+
+        <div id="bear_sprite" class="bear_walk"></div>
+
+        <div id="bear_fall" class="bear_falling"></div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="javascript.js"></script>
 
 
 </body>
+
 </html>
